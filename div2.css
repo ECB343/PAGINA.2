@@ -1,0 +1,159 @@
+@font-face{
+	font-family: titulo1;
+	src: url(letra2.otf);
+}
+@font-face{
+	font-family: titulo2;
+	src: url(letra3.otf);
+}
+.titulo1{
+	position: absolute;
+	top: 0px;
+	left: 150px;  
+	font-size: 40px;
+	color: black;
+	font-family: titulo1;
+	font-size: 50px;
+}
+.p1{
+	position: absolute;
+	top: 10px;
+	left: 200px;
+	width: 1000px;
+	height: 700px;
+	background: red;
+}
+.p2{
+	position: absolute;
+	top: 25px;
+	left: 250px;
+	width: 500px;
+	height: 100px;
+	background: url("fondo.jpg");
+  }
+  .p3{
+  	position: absolute;
+	top: 10px;
+	left: 20px;
+	width: 450px;
+	height: 75px;
+	background: rgba(23, 229, 154, 0);
+	border: solid 5px black;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	font-family: titulo1;
+	font-size: 20px
+  }
+  .p4{
+  	position: absolute;
+	top: 10px;
+	left: 20px;
+	width: 400px;
+	height: 50px;
+	background: rgba(255, 140, 0, 0.5);
+	border: solid 5px black;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	font-family: titulo1;
+	font-size: 20px	
+
+  }
+  .p5{
+  	position: absolute;
+	top: 200px;
+	left: 25px;
+	width: 450px;
+	height: 350px;
+	background: black;
+  }
+  .titulo2 {
+	position: absolute;
+	top: 0px;
+	left: 150px;  
+	font-size: 40px;
+	color: red;
+	font-family: titulo2;
+	font-size: 75px;
+	 }
+	 .p6{
+	 	position: absolute;
+	top: 90px;
+	left: 25px;
+	width: 400px;
+	height: 250px;
+	background: blue;
+	 }
+	 .p7{
+	 	position: absolute;
+	top: 10px;
+	left: 20px;
+	width: 350px;
+	height: 200px;
+	background: rgba(0, 128, 0, 0.7);
+	border: solid 5px black;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	font-family: titulo1;
+	font-size: 30px
+	 }
+	 .p8{
+	 position: absolute;
+	top: 200px;
+	left: 525px;
+	width: 450px;
+	height: 350px;
+	background: yellow;
+	 }
+	 .foto1{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	width: 200px;
+	height: 100px;
+	background: url("nave1.jpg");
+	background-size: cover;
+	  }
+	  .foto2{
+	position: absolute;
+	top: 20px;
+	left: 225px;
+	width: 200px;
+	height: 100px;
+	background: url("nave2.jpg");
+	background-size: cover;
+	  }
+	  .foto3{
+	position: absolute;
+	top: 240px;
+	left: 10px;
+	width: 200px;
+	height: 100px;
+	background: url("nave3.jpg");
+	background-size: cover;
+	  }
+	  .foto4{
+	position: absolute;
+	top: 240px;
+	left: 225px;
+	width: 200px;
+	height: 100px;
+	background: url("nave4.jpg");
+	background-size: cover;
+	  }
+	  .textochiquito{
+	  	position: absolute;
+	top: 125px;
+	left: 125px;
+	width: 200px;
+	height: 100px;
+	background: red;
+	border: solid 5px black;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	font-family: titulo1;
+	font-size: 30px
+	  }
