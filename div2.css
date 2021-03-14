@@ -30,6 +30,9 @@
 	width: 500px;
 	height: 100px;
 	background: url("fondo.jpg");
+	border: solid 5px black;
+	display: flex;
+	justify-content: center;
   }
   .p3{
   	position: absolute;
