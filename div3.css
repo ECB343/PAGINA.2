@@ -1,0 +1,319 @@
+@font-face{
+	font-family: titulo1;
+	src: url(letra2.otf);
+	}
+@font-face{
+	font-family: titulo2;
+	src: url(letra3.otf);
+}
+@font-face{
+	font-family: titulo3;
+	src: url(letra4.otf);
+	}
+	@font-face{
+	font-family: titulo4;
+	src: url(letra5.ttf);
+	}
+.titulo1
+{
+	position: absolute;
+	top: 0px;
+	left: 400px;  
+	color: yellow;
+	font-family: titulo1;
+	font-size: 70px;
+}
+.p1{
+	position: absolute;
+	top: 10px;
+	left: 200px;
+	width: 1000px;
+	height: 1500px;
+	background: red;
+}
+.titulo2
+{
+	position: absolute;
+	top: 150px;
+	left: 325px;  
+	font-size: 40px;
+	color: yellow;
+	font-family: titulo3;
+	font-size: 50px;
+}
+.titulo3
+{
+	position: absolute;
+	top: 0px;
+	left: 150px;  
+	font-size: 80px;
+	color: white;
+	font-family: titulo4;
+}
+.titulo4
+{
+	position: absolute;
+	top: 450px;
+	left: 225px;  
+	font-size: 40px;
+	color: yellow;
+	font-family: titulo3;
+	font-size: 50px;
+  }
+  .p2{
+	position: absolute;
+	top: 250px;
+	left: 200px;
+	width: 600px;
+	height: 200px;
+	background: red;
+}
+  .tambor{
+	position: absolute;
+	top: 700px;
+	left: 350px;
+	width: 300px;
+	height: 200px;
+	background: url("tambor.png");
+	background-size: cover;
+	z-index=1;
+	  }
+	  .baquetas{
+	position: absolute;
+	top: 650px;
+	left: 400px;
+	width: 200px;
+	height: 140px;
+	background: url("baquetas.png");
+	background-size: cover;
+	z-index=2;
+	  }
+	  .pito{
+	 position: absolute;
+	top: 600px;
+	left: 450px;
+	width: 200px;
+	height: 140px;
+	background: url("pito.png") no-repeat;
+	background-size: contain;
+	z-index=3;
+	  }
+	  .guitarra{
+	  	position: absolute;
+	top: 800px;
+	left: 300px;
+	width: 435px;
+	height: 180px;
+	background: url("guitarra.png");
+	transform: rotate(-130deg);
+	background-size: cover;
+	z-index=2;
+	  }
+	  .brasil{
+	position: absolute;
+	top: 600px;
+	left: 900px;
+	width: 75px;
+	height: 75px;
+	background: url("brasil.png");
+	border-radius: 100000000000000px;
+	background-size: cover;
+	  }
+	  .colombia{
+	position: absolute;
+	top: 660px;
+	left: 900px;
+	width: 75px;
+	height: 75px;
+	background: url("colombia.png");
+	border-radius: 100000000000000px;
+	background-size: cover;
+	  }
+	   .ecuador{
+	position: absolute;
+	top: 730px;
+	left: 900px;
+	width: 75px;
+	height: 75px;
+	background: url("ecuador.png");
+	border-radius: 100000000000000px;
+	background-size: cover;
+	  }
+	    .panama{
+	position: absolute;
+	top: 790px;
+	left: 900px;
+	width: 75px;
+	height: 75px;
+	background: url("panama.png");
+	border-radius: 100000000000000px;
+	background-size: cover;
+	  }
+	  .venezuela{
+	position: absolute;
+	top: 850px;
+	left: 900px;
+	width: 75px;
+	height: 75px;
+	background: url("venezuela.png");
+	border-radius: 100000000000000px;
+	background-size: cover;
+	  }
+	  .t1{
+	  	position: absolute;
+	top: 600px;
+	left: 800px;  
+	font-size: 40px;
+	color: white;
+	font-family: titulo3;
+	font-size: 50px;	
+	  }
+	   .t2{
+	  	position: absolute;
+	top: 660px;
+	left: 770px;  
+	font-size: 40px;
+	color: white;
+	font-family: titulo3;
+	font-size: 50px;	
+	  }
+	   .t3{
+	  	position: absolute;
+	top: 730px;
+	left: 770px;  
+	font-size: 40px;
+	color: white;
+	font-family: titulo3;
+	font-size: 50px;	
+	  }
+	   .t4{
+	  	position: absolute;
+	top: 790px;
+	left: 800px;  
+	font-size: 40px;
+	color: white;
+	font-family: titulo3;
+	font-size: 50px;	
+	  }
+	   .t5{
+	  	position: absolute;
+	top: 850px;
+	left: 730px;  
+	font-size: 40px;
+	color: white;
+	font-family: titulo3;
+	font-size: 50px;	
+	  }
+	  .titulo5{
+	position: absolute;
+	top: 700px;
+	left: 100px;  
+	font-size: 40px;
+	color: yellow;
+	font-family: titulo3;
+	font-size: 50px;
+}
+.p3{
+	position: absolute;
+	top: 775px;
+	left: 100px;
+	width: 100px;
+	height: 75px;
+	background: yellow;
+}
+.t6{
+		position: absolute;
+	top: 0px;
+	left: 5px;  
+	font-size: 40px;
+	color: black;
+	font-family: titulo3;
+	font-size: 50px;
+}
+.t7{
+		position: absolute;
+	top: 0px;
+	left: 10px;  
+	color: yellow;
+	font-size: 25px;
+}
+.p4{
+position: absolute;
+	top: 870px;
+	left: 70px;
+	width: 150px;
+	height: 150px;
+	background: red;	
+}
+.t8{
+	position: absolute;
+	top: 960px;
+	left: 100px;  
+	color: yellow;
+	font-family: titulo3;
+	font-size: 50px;	
+}
+.l1{
+	position: absolute;
+	top: 1100px;
+	left: 375px;  
+	color: orange;
+	font-family: titulo3;
+	font-size: 80px;
+}
+.l2{
+	position: absolute;
+	top: 1100px;
+	left: 405px;  
+	color: yellow;
+	font-family: titulo3;
+	font-size: 80px;
+}
+.l3{
+	position: absolute;
+	top: 1100px;
+	left: 435px;  
+	color: brown;
+	font-family: titulo3;
+	font-size: 80px;
+}
+.l4{
+	position: absolute;
+	top: 1100px;
+	left: 465px;  
+	color: green;
+	font-family: titulo3;
+	font-size: 80px;
+}
+.l5{
+	position: absolute;
+	top: 1100px;
+	left: 495px;  
+	color: blue;
+	font-family: titulo3;
+	font-size: 80px;
+}
+.l6{
+	position: absolute;
+	top: 1100px;
+	left: 525px;  
+	color: yellow;
+	font-family: titulo3;
+	font-size: 80px;
+}
+.l7{
+	position: absolute;
+	top: 1100px;
+	left: 555px;  
+	color: pink;
+	font-family: titulo3;
+	font-size: 80px;
+}
+.l8{
+	position: absolute;
+	top: 1100px;
+	left: 585px;  
+	color: purple;
+	font-family: titulo3;
+	font-size: 80px;
+}
